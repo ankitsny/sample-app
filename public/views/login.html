@@ -1,0 +1,29 @@
+<div class="box">
+    <div id="header">
+        <div id="cont-lock" style="text-align: center;padding-top: 5px;color: #fafafa;font-size: 3em;">
+            <i class="fa fa-sign-in"></i></div>
+        <div id="bottom-head">
+            <h1>Login</h1>
+        </div>
+    </div>
+    <form >
+        <div class="group">
+            <input class="input-material" type="email" ng-model="email" required>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Email</label>
+        </div>
+        <div class="group">
+            <input class="input-material" type="password" ng-model="password" required>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Password</label>
+        </div>
+        <button type="button" ng-click="login()">Login</button>
+    </form>
+    <div id="footer-box" style="padding-top: 15px;">
+        <p style="text-align:center;"><span style="color:#999">Not a member?</span>
+            <a href="/signup"><span class="sign-up"> Sign up now</span></a>
+        </p>
+    </div>
+</div>

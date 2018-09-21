@@ -1,0 +1,18 @@
+<div class="container">
+    
+    <div class="row">
+        <div class="col-xs-6">
+            <p>Name: {{user.firstName || 'NA'}}</p>
+            <p>Email: {{user.email || 'NA'}}</p>
+            <p>City: {{user.city || 'NA'}}</p>
+            <p>State: {{user.date || 'NA'}}</p>
+        </div>
+        <div class="col-xs-6">
+            <br><input type="text" placeholder="Name" ng-model="_user.firstName">
+            <br>  <input type="text" placeholder="City" ng-model="_user.city">
+            <br><input type="text" placeholder="State" ng-model="_user.state">
+            <br><input type="button" ng-click="update()" value="save">
+            
+        </div>
+    </div>
+</div>

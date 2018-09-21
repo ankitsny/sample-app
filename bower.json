@@ -1,0 +1,27 @@
+{
+  "name": "innovify",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Ankit Kumar <ankit_sony3@hotmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.6.5",
+    "angular-route": "^1.6.5",
+    "angular-bootstrap": "^2.5.0",
+    "angular-animate": "^1.6.5",
+    "bootstrap": "^3.3.7",
+    "components-font-awesome": "^4.7.0",
+    "angular-toastr": "^2.1.1"
+  }
+}
